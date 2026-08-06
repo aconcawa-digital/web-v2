@@ -20,11 +20,8 @@ export function Trabajos() {
     <section id="trabajos" className="bg-beige px-6 py-28 md:px-10 md:py-36">
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <p className="mb-4 text-xs uppercase tracking-[0.35em] text-terracotta">
-            Selección de proyectos
-          </p>
           <h2 className="font-serif text-5xl font-light tracking-tight text-darkbrown text-balance sm:text-6xl">
-            Experiencia
+            Portafolio
           </h2>
         </Reveal>
 

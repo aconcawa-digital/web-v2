@@ -15,7 +15,7 @@ const blocks = [
   },
   {
     title: 'Devolvemos lo que recibimos',
-    body: 'Ayni: dar y recibir en equilibrio. Trabajamos como aliados estratégicos, aportando mirada y criterio para que cada relato crezca junto a quien lo confía.',
+    body: 'Dar y recibir en equilibrio. Trabajamos como aliados estratégicos, aportando mirada y criterio para que cada relato crezca junto a quien lo confía.',
     span: 'lg:col-span-6 lg:col-start-4',
     accent: 'text-rust',
   },
@@ -29,15 +29,9 @@ export function Manifiesto() {
     >
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <p className="mb-4 text-xs uppercase tracking-[0.35em] text-terracotta">
-            Ayni · Reciprocidad
-          </p>
           <h2 className="font-serif text-5xl font-light tracking-tight text-darkbrown text-balance sm:text-6xl">
-            Reciprocidad
+            Cómo trabajamos
           </h2>
-          <p className="mt-4 max-w-xl font-serif text-xl font-light italic text-darkbrown/60">
-            Nos reflejamos mutuamente.
-          </p>
         </Reveal>
 
         <div className="mt-20 grid grid-cols-1 gap-x-10 gap-y-16 lg:grid-cols-12">

@@ -1,15 +1,14 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 const links = [
   { label: 'Inicio', href: '#inicio' },
-  { label: 'Manifiesto', href: '#manifiesto' },
-  { label: 'Proceso', href: '#proceso' },
-  { label: 'Trabajos', href: '#trabajos' },
+  { label: 'Portafolio', href: '#trabajos' },
+  { label: 'Cómo trabajamos', href: '#manifiesto' },
+  { label: 'Flujo de trabajo', href: '#proceso' },
   { label: 'Contacto', href: '#contacto' },
 ]
 
@@ -34,18 +33,9 @@ export function SiteHeader() {
       )}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 md:px-10">
-        <a href="#inicio" className="flex items-center gap-3">
-          <Image
-            src="/aconcawa-mark.png"
-            alt="Aconcawa"
-            width={40}
-            height={40}
-            className="h-9 w-9 object-contain"
-            priority
-          />
-          <span className="font-serif text-lg tracking-wide text-darkbrown">
-            Aconcawa
-          </span>
+        <a href="#inicio" className="flex items-center gap-3" aria-label="Aconcawa — Inicio">
+          {/* Espacio reservado para el nuevo logo */}
+          <span className="h-10 w-10" aria-hidden />
         </a>
 
         <nav className="hidden items-center gap-9 md:flex">

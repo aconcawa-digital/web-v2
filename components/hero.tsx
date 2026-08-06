@@ -7,14 +7,9 @@ export function Hero() {
       id="inicio"
       className="relative flex min-h-screen items-center overflow-hidden bg-gradient-to-b from-stone/25 via-beige to-offwhite"
     >
-      <div className="mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-12 px-6 pt-32 pb-20 md:px-10 lg:grid-cols-[1.4fr_1fr]">
+      <div className="mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-12 px-6 pt-32 pb-24 md:px-10 lg:grid-cols-[1.4fr_1fr]">
         <div>
           <Reveal>
-            <p className="mb-6 text-xs uppercase tracking-[0.35em] text-terracotta">
-              Productora audiovisual estratégica
-            </p>
-          </Reveal>
-          <Reveal delay={120}>
             <h1 className="font-serif text-6xl font-light leading-[0.95] tracking-tight text-darkbrown text-balance sm:text-7xl lg:text-8xl">
               Aconcawa
             </h1>
@@ -29,7 +24,7 @@ export function Hero() {
               href="#contacto"
               className="mt-10 inline-flex items-center border border-darkbrown/40 px-8 py-3 text-sm tracking-wide text-darkbrown transition-colors duration-300 hover:border-terracotta hover:bg-terracotta hover:text-offwhite"
             >
-              Conversemos
+              Solicitar Cotización
             </a>
           </Reveal>
         </div>

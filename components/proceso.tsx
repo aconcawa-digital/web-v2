@@ -31,11 +31,8 @@ export function Proceso() {
     >
       <div className="mx-auto max-w-4xl">
         <Reveal>
-          <p className="mb-4 text-xs uppercase tracking-[0.35em] text-terracotta">
-            Cómo trabajamos
-          </p>
           <h2 className="font-serif text-5xl font-light tracking-tight text-darkbrown text-balance sm:text-6xl">
-            Camino
+            Flujo de trabajo
           </h2>
         </Reveal>
 
